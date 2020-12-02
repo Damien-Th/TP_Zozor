@@ -272,3 +272,32 @@ footer h1{
     text-decoration: none;
     color: #760001;
 }
+
+
+/* media queries */
+
+
+@media screen and (max-width: 1024px) {
+    
+    .wrapper {width: auto;}
+    .banniere-image {display:none;}
+    
+    nav ul {display: inline-block;
+            vertical-align: top;
+            text-align: center;}
+    
+    nav a:hover {color: #000000;
+    border-bottom: 0px solid #760001;}
+    
+    section  {
+        display: flex;
+        flex-direction: column;}
+    
+    aside { text-align: center;}
+    
+    nav a {font-size: 1em;}
+    header h1 {font-size: 2.2em;}
+    header h2 {font-size: 1.8em;}
+}
+
+
