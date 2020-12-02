@@ -289,15 +289,23 @@ footer h1{
     nav a:hover {color: #000000;
     border-bottom: 0px solid #760001;}
     
-    section  {
+    section {
         display: flex;
         flex-direction: column;}
     
-    aside { text-align: center;}
-    aside p { font-size: 0.8em;}
- 
-   
-   
+    article, aside{
+    width: auto;
+    margin-bottom: 15px;}
+    
+    #photo_zozor img{
+    width: 110px;
+    float: right;
+    margin-left: 15px;}
+    
+    aside p:last-child{text-align: center;}
+    
+    #fleche_bulle {display: none;}
 }
+   
 
 
